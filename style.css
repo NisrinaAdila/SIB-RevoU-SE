@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
+
+:root {
+  --primary-font: "Open Sans", sans-serif;
+  --primary-color: #ffd700;
+  --form-color: rgb(220, 218, 218);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: var(--primary-font);
+}
+
+.form-container {
+  margin: auto;
+  background-color: #fff;
+  max-width: 500px;
+  padding: 12px;
+}
+
+.form-content {
+  border: 1px solid var(--form-color);
+  border-radius: 8px;
+  padding: 28px;
+}
+
+.form-content input,
+.form-content textarea {
+  width: 100%;
+  margin-top: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid var(--form-color);
+}
+
+.form-content>div {
+  margin-top: 10px;
+}
+
+.input-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+button {
+  width: 100%;
+  font-size: 16px;
+  font-weight: medium;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.profile {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-image {
+  width: 60px;
+  height: 60px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.profile-text div {
+  border: 1px solid var(--form-color);
+  border-radius: 12px;
+  padding: 4px 8px;
+  margin-top: 8px;
+}
