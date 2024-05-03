@@ -15,13 +15,18 @@
 body {
   background-color: var(--primary-color);
   font-family: var(--primary-font);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
 }
 
 .form-container {
-  margin: auto;
   background-color: #fff;
   max-width: 500px;
   padding: 12px;
+  border-radius: 12px;
 }
 
 .form-content {
@@ -67,6 +72,9 @@ button {
   gap: 20px;
   align-items: center;
   margin-top: 20px;
+  border: 1px solid var(--form-color);
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .profile-image {
